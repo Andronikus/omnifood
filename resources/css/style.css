@@ -70,6 +70,15 @@ header {
     margin-top: 20px;
 }
 
+.logo-black {
+    display: none;
+    height: 50px;
+    width: auto;
+    float: left;
+    margin: 5px 0;
+}
+
+/* main navigation*/
 .main-nav {
     float: right;
     list-style: none;
@@ -97,6 +106,27 @@ header {
 .main-nav li a:active{
     border-bottom: 1px solid #cf6d17;
 }
+/* sticky navigation*/
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.979);
+    box-shadow: 0 2px 2px rgb(160, 159, 159);
+    z-index: 9999;
+}
+
+.sticky .main-nav {margin-top: 20px;}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    padding: 8px 0;
+    color: #555;
+}
+
+.sticky .logo {display: none;}
+.sticky .logo-black {display: block;}
+
 /*-------------------------------------------------------*/
 /*-                    Headings                         -*/
 /*-------------------------------------------------------*/
