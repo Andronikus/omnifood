@@ -603,6 +603,22 @@ footer p {
 footer p:last-child span {
     color: #c40303;
 }
+
+/*-------------------------------------------------------*/
+/*-                     Animations                      -*/
+/*-------------------------------------------------------*/
+.js--waypoint-1,
+.js--waypoint-2,
+.js--waypoint-3 {
+    opacity: 0;
+}
+
+.js--waypoint-1.animated,
+.js--waypoint-2.animated,
+.js--waypoint-3.animated {
+    opacity: 1;
+}
+
 /*
 orange color: #cf6d17
 */
