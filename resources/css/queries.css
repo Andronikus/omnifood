@@ -54,7 +54,43 @@
         padding: 0 4%;
     }
     .col {width: 100%;}
-    .main-nav {display: none;}
+
+    .main-nav {
+        display: none;;
+        float: left;
+        margin-top: 25px;
+    }
+    .main-nav li {
+        display: block;
+        margin-left: 25px;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited{
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+
+    .sticky .main-nav {margin-top: 5px;}
+
+    .sticky .mobile-nav-icon {
+        margin-top: 10px;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{padding: 10px 0;}
+
+    .sticky .mobile-nav-icon i {
+        color: #555;
+    }
+
+    
+
 
     .long-copy {
         width: 100%;
